@@ -10,6 +10,13 @@ Alexis Nehuen Ramundo
 
 ---
 
+Para poder leer El Notebook de jupyter desde visual Studio Code o (o su editor de codigo de confianza). Cargue los archivos:
+AmbienteJupyter.ipynb
+horse-colic.data
+horse-colic.test
+requirements.txt
+Y ejecutar desde la terminal, el comando : "pip install -r requirements.txt"
+
 Sobre el Proyecto
 Este proyecto consiste en un análisis de punta a punta del dataset "Horse Colic" (Cólico Equino) del repositorio de Machine Learning de UC Irvine. El objetivo es aplicar el proceso completo de la ciencia de datos, desde la exploración inicial y la limpieza, hasta el planteo y la validación de hipótesis estadísticas para comprender los factores que influyen en el pronóstico de un caballo con cólico.
 
