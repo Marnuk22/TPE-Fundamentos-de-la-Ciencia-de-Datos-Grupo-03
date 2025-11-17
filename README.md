@@ -25,13 +25,13 @@ horse-colic.data # El dataset original (sin procesar).
 hose-colic.test # El dataset de testeo (sin procesar).
 TPE_Informe.pdf # El informe final redactado según el template oficial. README.md # Este archivo.
 Requirements.txt # Requisitos para ejecutar el código.
-El análisis se centró en 6 hipótesis clave, de las cuales 5 fueron confirmadas, demostrando relaciones significativas entre los signos clínicos y el desenlace del paciente:
+El análisis se centró en 6 hipótesis clave, de las cuales 4 fueron confirmadas, demostrando relaciones significativas entre los signos clínicos y el desenlace del paciente:
 
 H1 (Rechazada).
 H2 (Confirmada).
 H3 (Confirmada).
 H4 (Confirmada).
-H5 (Confirmada).
+H5 (Rechazada).
 H6 (Confirmada).
 
 Tecnologías Utilizadas
