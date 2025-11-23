@@ -1,50 +1,86 @@
-# TPE-Fundamentos-de-la-Ciencia-de-Datos-Grupo-03
-Trabajo Práctico Especial para la materia Fundamentos de la Ciencia de Datos de la carrera Ingeniería en Sistemas de la UNICEN.
+# Proyecto de Fundamentos de Ciencia de Datos - Grupo 03
 
-Cursada: 2025
-Grupo: 3
-Autores:
-Manuel Oñatibia
-Juan Pablo Padilla
-Alexis Nehuen Ramundo
+Bienvenido a este repositorio. Este proyecto contiene un análisis exploratorio, limpieza y visualización de datos utilizando el conjunto de datos **Horse Colic** (Cólico equino).
+
+El trabajo principal se encuentra desarrollado en un **Jupyter Notebook**, donde se detalla el paso a paso del procesamiento de datos.
+
+##  Contenido del Repositorio
+
+* **`AmbienteJupyter.ipynb`**: El archivo principal con el código, análisis y gráficos.
+* **`horse-colic.data` / `horse-colic.test`**: Los archivos de datos crudos utilizados en el análisis. **Importante:** No mover estos archivos de la carpeta.
+* **`requirements.txt`**: Lista de librerías necesarias para ejecutar el proyecto.
+* **`Entreg. TPE...docx`**: Informe formal del trabajo práctico.
 
 ---
 
-Para poder leer El Notebook de jupyter desde visual Studio Code o (o su editor de codigo de confianza). Cargue los archivos:
-AmbienteJupyter.ipynb
-horse-colic.data
-horse-colic.test
-requirements.txt
-Y ejecutar desde la terminal, el comando : "pip install -r requirements.txt"
+##  Guía de Instalación y Ejecución (Paso a Paso)
 
-Sobre el Proyecto
-Este proyecto consiste en un análisis de punta a punta del dataset "Horse Colic" (Cólico Equino) del repositorio de Machine Learning de UC Irvine. El objetivo es aplicar el proceso completo de la ciencia de datos, desde la exploración inicial y la limpieza, hasta el planteo y la validación de hipótesis estadísticas para comprender los factores que influyen en el pronóstico de un caballo con cólico.
+Sigue estas instrucciones para descargar y ejecutar el proyecto en tu computadora local.
 
-El trabajo se estructura siguiendo los 4 enunciados principales del TPE:
-Análisis Exploratorio de Datos (EDA)
-Limpieza y Pre-procesamiento de Datos
-Planteo de 6 Hipótesis (Uni, Bi y Multivariadas)
-Validación Estadística de Hipótesis
+### 1. Prerrequisitos
+Antes de empezar, asegúrate de tener instalado **Python** (versión 3.7 o superior).
 
-Contenido del Repositorio
-Este repositorio contiene todos los archivos necesarios para replicar el análisis:
-horse-colic.data # El dataset original (sin procesar). 
-hose-colic.test # El dataset de testeo (sin procesar).
-TPE_Informe.pdf # El informe final redactado según el template oficial. README.md # Este archivo.
-Requirements.txt # Requisitos para ejecutar el código.
-El análisis se centró en 6 hipótesis clave, de las cuales 4 fueron confirmadas, demostrando relaciones significativas entre los signos clínicos y el desenlace del paciente:
+#### 🪟 Para Windows
+* **Opción 1:** [Página oficial de Python](https://www.python.org/downloads/)
+* **Opción 2:** [Microsoft Store](https://apps.microsoft.com/detail/9pnrbtzxmb4z)
+> **Nota:** Al instalar, asegúrate de marcar la casilla **"Add Python to PATH"**.
 
-H1 (Rechazada).
-H2 (Confirmada).
-H3 (Confirmada).
-H4 (Confirmada).
-H5 (Rechazada).
-H6 (Confirmada).
+#### 🐧 Para Linux (Ubuntu/Debian/Mint)
+Abre tu terminal y ejecuta:
+```
+bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+Git (opcional, si sabes usarlo).
 
-Tecnologías Utilizadas
-Python 3.x
-Pandas: Para la manipulación y limpieza de datos.
-NumPy: Para operaciones numéricas.
-Matplotlib / Seaborn: Para la visualización de datos (Boxplots, Scatter plots, Histogramas).
-SciPy (scipy.stats): Para la ejecución de tests estadísticos (T-test, ANOVA, Chi-Cuadrado).
-Scikit-learn (sklearn): Para el pre-procesamiento (OneHotEncoder) y el modelado (LogisticRegression, train_test_split).
+### 2. Descargar el Proyecto
+      
+Tienes dos opciones para obtener los archivos:
+
+Opción A (Fácil): Haz clic en el botón verde "Code" en la parte superior de esta página y selecciona "Download ZIP". Descomprime el archivo en una carpeta de tu computadora.
+
+Opción B (Opcional con Git): Abre tu terminal y ejecuta:
+```
+git clone <URL_DE_TU_REPOSITORIO>
+cd <NOMBRE_DE_LA_CARPETA_DESCARGADA>
+```
+
+### 3. Instalar las Dependencias
+Para que el código funcione, necesitas instalar las librerías listadas en requirements.txt.
+  
+  #### 1. Abre la terminal (o Símbolo del sistema en Windows).
+  
+  #### 2. Navega hasta la carpeta donde descargaste/descomprimiste los archivos:
+  
+    cd ruta/a/tu/carpeta 
+      
+  ####  3. Ejecuta el siguiente comando:
+    pip install -r requirements.txt
+
+  Nota para Linux: Si el comando anterior falla o dice "command not found", intenta usar pip3 en su lugar
+
+    pip3 install -r requirements.txt
+  
+  #### 4.Abrir el Notebook (Jupyter)
+  
+  ##### 1.  Una vez instaladas las dependencias, En la misma terminal, escribe:
+    jupyter notebook
+  (Si en Linux no funciona, prueba: python3 -m notebook)
+  
+    python3 -m notebook
+  ##### 2.Se abrirá automáticamente una pestaña en tu navegador.
+
+  ##### 3.Haz clic en el archivo AmbienteJupyter.ipynb.
+
+ ### Cómo ejecutar el análisis
+Una vez dentro del notebook:
+
+Para correr paso a paso: Selecciona una celda y presiona Shift + Enter.
+
+Para correr todo de una vez: Ve al menú Kernel -> Restart & Run All.
+  
+
+
+
+luego de instalar las dependencias debo correr "jupyter notebook" pero esto esta mal, que pasos debo seguir antes
