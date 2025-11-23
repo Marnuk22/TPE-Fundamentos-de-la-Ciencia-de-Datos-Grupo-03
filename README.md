@@ -4,7 +4,9 @@ Bienvenido a este repositorio. Este proyecto contiene un análisis exploratorio,
 
 El trabajo principal se encuentra desarrollado en un **Jupyter Notebook**, donde se detalla el paso a paso del procesamiento de datos.
 
-##  Contenido del Repositorio
+  
+## Contenido del Repositorio
+
 
 * **`AmbienteJupyter.ipynb`**: El archivo principal con el código, análisis y gráficos.
 * **`horse-colic.data` / `horse-colic.test`**: Los archivos de datos crudos utilizados en el análisis. **Importante:** No mover estos archivos de la carpeta.
@@ -13,7 +15,7 @@ El trabajo principal se encuentra desarrollado en un **Jupyter Notebook**, donde
 
 ---
 
-##  Guía de Instalación y Ejecución (Paso a Paso)
+## Guía de Instalación y Ejecución (Paso a Paso)
 
 Sigue estas instrucciones para descargar y ejecutar el proyecto en tu computadora local.
 
@@ -48,32 +50,40 @@ cd <NOMBRE_DE_LA_CARPETA_DESCARGADA>
 
 ### 3. Instalar las Dependencias
 Para que el código funcione, necesitas instalar las librerías listadas en requirements.txt.
+
   
-  #### 1. Abre la terminal (o Símbolo del sistema en Windows).
+#### 1. Abre la terminal (o Símbolo del sistema en Windows).
+  
   
-  #### 2. Navega hasta la carpeta donde descargaste/descomprimiste los archivos:
+#### 2. Navega hasta la carpeta donde descargaste/descomprimiste los archivos:
+
+    cd ruta/a/tu/carpeta 
+
   
-    cd ruta/a/tu/carpeta 
-      
-  ####  3. Ejecuta el siguiente comando:
-    pip install -r requirements.txt
+#### 3. Ejecuta el siguiente comando:
+  
+    pip install -r requirements.txt
 
   Nota para Linux: Si el comando anterior falla o dice "command not found", intenta usar pip3 en su lugar
 
     pip3 install -r requirements.txt
   
-  #### 4.Abrir el Notebook (Jupyter)
-  
-  ##### 1.  Una vez instaladas las dependencias, En la misma terminal, escribe:
-    jupyter notebook
+#### 4.Abrir el Notebook (Jupyter)
+  
+##### 1.  Una vez instaladas las dependencias, En la misma terminal, escribe:
+  
+    jupyter notebook
+    
   (Si en Linux no funciona, prueba: python3 -m notebook)
+  
+    python3 -m notebook
   
-    python3 -m notebook
-  ##### 2.Se abrirá automáticamente una pestaña en tu navegador.
+##### 2.Se abrirá automáticamente una pestaña en tu navegador.
 
-  ##### 3.Haz clic en el archivo AmbienteJupyter.ipynb.
+##### 3.Haz clic en el archivo AmbienteJupyter.ipynb.
 
- ### Cómo ejecutar el análisis
+### Cómo ejecutar el análisis
+
 Una vez dentro del notebook:
 
 Para correr paso a paso: Selecciona una celda y presiona Shift + Enter.
