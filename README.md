@@ -79,8 +79,3 @@ Una vez dentro del notebook:
 Para correr paso a paso: Selecciona una celda y presiona Shift + Enter.
 
 Para correr todo de una vez: Ve al menú Kernel -> Restart & Run All.
-  
-
-
-
-luego de instalar las dependencias debo correr "jupyter notebook" pero esto esta mal, que pasos debo seguir antes
